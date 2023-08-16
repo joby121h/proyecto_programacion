@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <div class = "audio">
+                        <audio src="img/Aqua - Barbie Girl (Official Music Video)_ZyhrYis509A.mp3" autoplay="autoplay" loop="true"></audio>
+                    </div>
+                    <h1>Programación</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">ESPECIALIDAD</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">EXPERIENCIAS</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+
+                    
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        
+                        <i class="fa-solid fa-power-off fa-shake" style="color: #ff5080;"></i>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos!!</p>
+                <h2>Nosotros somos <span>Programación</span></h2>
+               
+                <a href="#portfolio">Tú puedes ser <br> lo que quieras ser</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/barbie-movie-ken.gif" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre la especialidad</p>
+            <h2> <span>Programación </span> </h2>
+            <h3></h3>
+            <p> Programación no es solo código, es la creación de programas que van desde entretención hasta utilidades que nos sirven a todos. Lo que verás dentro de la especialidad serán distintos módulos que verán las distintas áreas de la programación:
+                <br>
+                -Programación Orientada a Objetos: Aquí crearás programas de lo que tu quieras, utilizando fórmulas, comandos, etc.
+                <br>
+                -Desarrollo Web: Aquí crearás páginas de todo tipo, aplicando texto, imágenes, canciones y muchas otras cosas.
+                <br>
+                -Diseño de Base de Datos: En este módulo aprenderás a diseñar pantallas con botones funcionales, en donde podrás almacenar datos de cualquier clase, y así utilizarlos cuando sea conveniente.</p>
+            
+            
+        </div>
+    </section>
+
+  
+    <section id="servicios">
+
+
+   
+    <div class="contenedor-skills" id="skills">
+        <h3>MODULOS </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>PROGRAMACIÓN ORIENTADA A OBJETOS</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>DISEÑO DE BASE DE DATOS</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>ADMINISTRACION DE BASE DE DATOS</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>DESARROLLO DE APLICACIONES WEB</p>
+                <span class="porcentaje"></span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/impresion 2.jpeg" alt="">
+                <div class="info">
+                   
+                    <p>Impresion 3D</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Captura3.JPG" alt="">
+                <div class="info">
+                    
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+           
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/trabajo4.png" alt="">
+                <div class="info">
+                    
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/trabajo5.png" alt="">
+                <div class="info">
+                   
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/trabajo6.png" alt="">
+                <div class="info">
+                    
+                    <p>Diseño Web</p>
+                </div>
+            </div>
+        </div>
+       
+            
+            
+    </section>
+
+   
+    <section id="contacto">
+        <h3 class="titulo-seccion">L.B.I.C</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <img src="img/pablo.jpg" alt="">
+
+                
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+       
+        <p>Creado por Jorge molina - Matias Lobos</p>
+        
+        <a href="https://www.instagram.com/matiii.lbss/"><i class="fa-brands fa-instagram"></i></a>
+        
+        <a href="https://github.com/Matitto"><i class="fa-brands fa-github-alt"></i></a>
+
+    </footer>
+     
+
+</body>
+
+</html>
